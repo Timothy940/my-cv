@@ -6,6 +6,12 @@
   <title>MY CV</title>
 
   <style>
+    .row-flex {
+      display: flex;
+      justify-content: space-between;
+      width: 85%;
+    }
+
     @media (max-width: 768px) {
       p[style*="margin-left: 200px"],
       p[style*="margin-left: 200PX"],
@@ -14,6 +20,11 @@
       div[style*="margin-left: 200px"],
       P[style*="margin-left: 200PX"] {
         margin-left: 5% !important;
+        width: 90% !important;
+      }
+
+      .row-flex {
+        display: block !important;
         width: 90% !important;
       }
     }
@@ -41,7 +52,7 @@
   <p style="font-weight: bold;margin-left: 200PX;">EDUCATIONAL BACKGROUND</p>
   <hr style="margin-left: 200px;width: 85%;">
 
-  <div style="margin-left: 200PX; display: flex; justify-content: space-between; width: 85%;">
+  <div class="row-flex" style="margin-left: 200PX;">
     <b>University of Cape Coast</b>
     <span>2023 - present</span>
   </div>
@@ -49,7 +60,7 @@
   <p style="margin-left: 200px;">BSc. Computer Science</p>
   <br><br><br>
 
-  <div style="margin-left: 200PX; display: flex; justify-content: space-between; width: 85%;">
+  <div class="row-flex" style="margin-left: 200PX;">
     <b>Nandom Senior High School</b>
     <span>2017 - 2020</span>
   </div>
@@ -57,7 +68,7 @@
   <p style="margin-left: 200px;">General Science</p>
   <br><br><br>
 
-  <div style="margin-left: 200PX; display: flex; justify-content: space-between; width: 85%;">
+  <div class="row-flex" style="margin-left: 200PX;">
     <b>St. Jude Junior High School</b>
     <span>2015 - 2017</span>
   </div>
@@ -67,14 +78,14 @@
   <p style="font-weight: bold;margin-left: 200PX;">LEADERSHIP EXPERIENCE</p>
   <hr style="margin-left: 200px;width: 85%;">
 
-  <div style="margin-left: 200PX; display: flex; justify-content: space-between; width: 85%;">
+  <div class="row-flex" style="margin-left: 200PX;">
     <b>Discipline Prefect</b>
     <span>2014 - 2015</span>
   </div>
   <p style="margin-left: 200px;">St. Jude Junior High School</p>
   <br><br>
 
-  <div style="margin-left: 200PX; display: flex; justify-content: space-between; width: 85%;">
+  <div class="row-flex" style="margin-left: 200PX;">
     <b>Library Prefect</b>
     <span>2011 - 2012</span>
   </div>
